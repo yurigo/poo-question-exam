@@ -101,7 +101,7 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
 
-![UML](../assets/diagrama1.jpg)
+![UML](./assets/diagrama1.jpg)
 
 - Identifica els diferents tipus de relacions (sense comptar l’herència) que hi apareixen. Indica’n el nom i la representació UML. Quina diferència hi ha entre elles? __[1 punt]__ 
 
@@ -111,7 +111,7 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 
 - Identifica les següents relacions a partir de la seva representació UML. Quina diferència hi ha entre elles? Descriu-les una a una abans de comparar-les en termes generals. __[1 punt]__
 
-![UML](../assets/relaciones1.jpg)
+![UML](./assets/relaciones1.jpg)
 
 - Dissenya un petit diagrama de classes que faci servir les relacions de l’apartat anterior, juntament amb l’herència (o altres mecanismes per obtenir polimorfisme). Inclou alguns atributs i mètodes, tot justificant les decisions que has pres. __[2 punts]__ 
 
