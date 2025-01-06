@@ -62,6 +62,31 @@ Defineix amb les teves paraules i compara les següents parelles de conceptes: *
 
 Explica què és el polimorfisme i les diferents formes que tenim d’obtenir-lo. Com es relaciona amb els altres fonaments de la Programació Orientada a Objectes? Posa un exemple pràctic on el polimorfisme faciliti la solució d’un problema (pots fer servir codi i/o diagrames si ho creus necessari). **[3 punts]**
 
+# Problema 1: Test conceptual (respuesta múltiple)
+
+Marca las opciones correctas para cada pregunta (puede haber de 0 a 4, incluidos). Se debe entregar en enunciado con las respuestas, y los errores restan. **[3 puntos]**
+
+1. El polimorfismo...
+
+- a. Es la capacidad de una clase para heredar de múltiples clases.
+- b. Es la capacidad de una clase para contener instancias de otras clases.
+- c. Es la capacidad de una clase para ocultar su implementación interna.
+- d. Es la capacidad de un objeto de una clase base para ser tratado como un objeto de cualquiera de sus clases derivadas.
+
+2. La encapsulación en programación orientada a objetos...
+
+- a. Facilita la creación de objetos.
+- b. Oculta la implementación interna de una clase.
+- c. Permite heredar propiedades de una clase base.
+- d. Proporciona acceso controlado a los atributos y métodos de una clase.
+
+3. El patrón Experto en Información...
+
+- a. Delega todas las responsabilidades a una única clase para simplificar la estructura del programa.
+- b. Asigna la responsabilidad de una tarea a la clase que posee la información necesaria para llevar a cabo esa tarea.
+- c. Garantiza que todas las clases tengan acceso a la misma información sin restricciones.
+- d. Limita la información disponible a las clases para promover la seguridad.
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
