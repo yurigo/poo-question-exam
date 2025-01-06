@@ -275,3 +275,11 @@ A continuació trobaràs els dos fragments de codi corresponents. Compara’ls t
 10	    }
 11	}
 ```
+
+# Problema 3: Preguntas teóricas
+
+• De los siguientes diagramas UML, ¿cuál representaría más el modelado de una mesa y sus patas? Explica brevemente tu decisión, indica los nombres de las relaciones, qué características tienen y pon un ejemplo de cada una de ellas. **[2 puntos]**
+
+![UML](./assets/relaciones2.png)
+
+• Explica con tus palabras por qué cree que es importante modelar diagramas de clase en UML. **[1 punto]**
