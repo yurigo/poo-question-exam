@@ -129,6 +129,22 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 
 És recomanable justificar per escrit les decisions de disseny que considereu més importants.
 
+# Problema 2: Diseño
+
+Nos piden diseñar una parte del modelo de negocio de un videojuego de combates espaciales:
+
+Los jugadores que siempre estarán identificados por un identificador y nombre serán los protagonistas en tercera persona del juego. Al crear un personaje, el juego nos permitirá seleccionar entre 4 razas: Humano, Goa’uld, Vulcano o Mandaloriano. La raza es importante en el combate espacial ya que cada uno realizará una maniobra especial única en su especie.
+
+Asimismo, el jugador tendrá un hangar en el que podremos guardar nuestras naves de combate (7 en total), cada nave tendrá características únicas como durabilidad, blindaje, velocidad máxima soportada, un espacio donde poder colocar una o dos armas y el motor.
+
+Cada arma tendrá una durabilidad, velocidad de ataque, alcance y daño.
+
+El motor nos permitirá acelerar y frenar con más o menos dificultad. El motor se podrá ir mejorando para que nos dé más prestaciones (mejor aceleración y frenado).
+
+Las naves de combate y armas se pueden comprar, vender, mejorar y reparar en el mercado.
+
+Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
