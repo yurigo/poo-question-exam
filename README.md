@@ -193,6 +193,28 @@ Más adelante, para hacer estudios estadísticos, de cada persona sería interes
 
 Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar las decisiones de diseño que consideres más importantes.
 
+# Problema 2: Diseño
+
+El Departamento para el Desarrollo Digital de la Investigación, también conocido como D<sup>3</sup>I, nos ha pedido ayuda para digitalizar la carrera profesional de sus investigadores. Usa los patrones vistos en clase para diseñar un diagrama de clases UML que soporte las siguientes funcionalidades:
+
+- **Registrar un nuevo investigador**. Se deberá pedir por teclado su nombre completo, años de experiencia en investigación y categoría profesional. El sistema debe aceptar las siguientes categorías profesionales:
+
+  - **Doctorando**: Investigador que aún no ha terminado el doctorado.
+  - **Doctor**: Investigador que ha finalizado el doctorado. Será necesario pedir por teclado si obtuvo la distinción _cum laude_ en su defensa de tesis.
+  - **Director**: Investigador que lidera una línea o grupo de investigación. Será necesario pedir cuántos investigadores forman parte de su equipo.
+
+- **Calcular el salario anual de un investigador**:
+  Se deberá pedir el nombre y aplicar las siguientes normas:
+
+  - Los doctorandos no cobran nada.
+  - Los doctores tienen un salario base de 30.000€, que se duplica si obtuvieron la distinción _cum laude_ en su defensa de tesis.
+  - Los directores tienen un salario base de 100.000€, con un plus de 10.000€ por cada investigador en su equipo.
+  - Todos los investigadores ganan un 1% adicional por cada año de experiencia acumulado, independientemente de su categoría profesional.
+
+- **Actualizar la carrera profesional de un investigador**: Se deberá pedir el nombre y la nueva categoría.
+
+Ten en cuenta que no estamos seguros de cómo se almacenará esta información, pero por el momento queremos hacer una prueba utilizando archivos JSON.
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
