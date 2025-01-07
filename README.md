@@ -7,7 +7,6 @@ Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclos
 - a. Si no ens surt la implementació d’un dels seus mètodes.
 - b. Si no volem permetre’n la instanciació de cap forma.
 - c. Sempre que hereti mètodes abstractes.
-
 - d. Quan vulguem tenir subclasses que implementin un mateix mètode genèric.
 
 2. Una interfície...
@@ -23,6 +22,8 @@ Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclos
 - b. Defineixen com fer que un programa escrit en Java compili.
 - c. Són dos: High Cohesion i Low Coupling.
 - d. Els va inventar Edsger W. Grasp.
+
+---
 
 # Problema 1: Test conceptual (resposta múltiple)
 
@@ -49,6 +50,8 @@ Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclos
 - c. Sovint es tradueix en una estructura de paquets.
 - d. Serveix per aconseguir que un programa escrit en Java compili.
 
+---
+
 # Problema 1: Conceptes
 
 Defineix amb les teves paraules i compara les següents parelles de conceptes: **[4 punts]**
@@ -58,9 +61,63 @@ Defineix amb les teves paraules i compara les següents parelles de conceptes: *
 - Interfície - Classe abstracta
 - GRASP - Layered Architecture
 
+---
+
 # Problema 1: Conceptes
 
 Explica què és el polimorfisme i les diferents formes que tenim d’obtenir-lo. Com es relaciona amb els altres fonaments de la Programació Orientada a Objectes? Posa un exemple pràctic on el polimorfisme faciliti la solució d’un problema (pots fer servir codi i/o diagrames si ho creus necessari). **[3 punts]**
+
+---
+
+# Problema 1: Test conceptual (respuesta múltiple)
+
+Marca las opciones correctas para cada pregunta (puede haber de 0 a 4, incluidos). Se debe entregar en enunciado con las respuestas, y los errores restan. **[3 puntos]**
+
+1. El polimorfismo...
+
+- a. Es la capacidad de una clase para heredar de múltiples clases.
+- b. Es la capacidad de una clase para contener instancias de otras clases.
+- c. Es la capacidad de una clase para ocultar su implementación interna.
+- d. Es la capacidad de un objeto de una clase base para ser tratado como un objeto de cualquiera de sus clases derivadas.
+
+2. La encapsulación en programación orientada a objetos...
+
+- a. Facilita la creación de objetos.
+- b. Oculta la implementación interna de una clase.
+- c. Permite heredar propiedades de una clase base.
+- d. Proporciona acceso controlado a los atributos y métodos de una clase.
+
+3. El patrón Experto en Información...
+
+- a. Delega todas las responsabilidades a una única clase para simplificar la estructura del programa.
+- b. Asigna la responsabilidad de una tarea a la clase que posee la información necesaria para llevar a cabo esa tarea.
+- c. Garantiza que todas las clases tengan acceso a la misma información sin restricciones.
+- d. Limita la información disponible a las clases para promover la seguridad.
+
+---
+
+# Problema 1: Conceptos
+
+Define con tus propias palabras y compara las siguientes parejas de conceptos: **[3 puntos]**
+
+- Programación imperativa - Programación orientada a objetos
+- Polimorfismo vertical – Polimorfismo horizontal
+- Clase - Objeto
+- Alta cohesión – Bajo acoplamiento
+
+---
+
+# Problema 1: Relaciones entre clases
+
+¿Qué relaciones establecerías entre las siguientes clases? Represéntalas en UML y justifica tu respuesta.
+
+- a. Canción + Lista de Reproducción
+- b. Usuario + Usuario Administrador
+- c. Fotografía + Comentarios
+- d. Capítulos + Serie
+- e. Sierra + Tronco de Madera
+
+---
 
 # Problema 2: Preguntes teòriques
 
@@ -70,6 +127,8 @@ Explica què és el polimorfisme i les diferents formes que tenim d’obtenir-lo
 
 - Explica amb les **teves paraules** per què creus que és important modelar diagrames de classe en UML. **[1 punt]**
 
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les teves paraules què és una classe abstracta i com es diferencia d’una interfície. En quines situacions ens decantarem per cadascuna? **[2 punts]**
@@ -77,6 +136,8 @@ Explica què és el polimorfisme i les diferents formes que tenim d’obtenir-lo
 - Explica amb les teves paraules què són els patrons GRASP, sense entrar en detalls. Quins són els avantatges que ens proporcionen com a programadors? **[1 punt]**
 
 - Explica amb les teves paraules per què creus que és important la programació orientada a objectes. **[1 punt]**
+
+---
 
 # Problema 2: Disseny
 
@@ -87,6 +148,8 @@ Volem començar a desenvolupar una plataforma. Encara no sabem ben bé si serà 
 - Entrar a la plataforma amb un usuari existent. Cal demanar per pantalla direcció de correu electrònic i contrasenya, per comprovar si l’usuari existeix i les credencials són correctes.
 
 Tingueu en compte que no estem segurs de com es persistirà aquesta informació, però de moment volem fer la prova amb fitxers JSON.
+
+---
 
 # Problema 2: Disseny
 
@@ -104,6 +167,84 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 
 És recomanable justificar per escrit les decisions de disseny que considereu més importants.
 
+---
+
+# Problema 2: Diseño
+
+Nos piden diseñar una parte del modelo de negocio de un videojuego de combates espaciales:
+
+Los jugadores que siempre estarán identificados por un identificador y nombre serán los protagonistas en tercera persona del juego. Al crear un personaje, el juego nos permitirá seleccionar entre 4 razas: Humano, Goa’uld, Vulcano o Mandaloriano. La raza es importante en el combate espacial ya que cada uno realizará una maniobra especial única en su especie.
+
+Asimismo, el jugador tendrá un hangar en el que podremos guardar nuestras naves de combate (7 en total), cada nave tendrá características únicas como durabilidad, blindaje, velocidad máxima soportada, un espacio donde poder colocar una o dos armas y el motor.
+
+Cada arma tendrá una durabilidad, velocidad de ataque, alcance y daño.
+
+El motor nos permitirá acelerar y frenar con más o menos dificultad. El motor se podrá ir mejorando para que nos dé más prestaciones (mejor aceleración y frenado).
+
+Las naves de combate y armas se pueden comprar, vender, mejorar y reparar en el mercado.
+
+Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
+
+---
+
+# Problema 2: Diseño
+
+Nos piden diseñar una parte del modelo de negocio de una tienda online:
+
+Los usuarios de la aplicación harán login en nuestra tienda online. Después de hacer login en sistema detectará si el usuario es un cliente o un administrador.
+
+El administrador se encargará solamente de revisar el stock: Podrá añadir, editar y eliminar los productos existentes.
+
+Los clientes son un usuario del que necesitaremos guardar la información referente a este: nombre, dirección, teléfono, email. El cliente podrá consultar productos y añadirlos a una orden de compra. Una orden de compra tendrá un numero a modo de identificador, la fecha en la que se ha creado, la fecha en la que se haya enviado, la dirección de envío, el estado de la orden (nueva, enviada, entregada, cerrada), el total, el descuento aplicado (si lo hay), y el precio final. Además, debería incluir información sobre el pago y tantas líneas como productos integrados en la orden de compra. Asimismo, una línea de la orden de compra debe indicarlos la información del producto, la cantidad y el precio.
+
+La información sobre el pago indicará cuando se llevó a cabo el pago, el total pagado y el tipo de pago. El sistema, por el momento, puede admitir 3 tipos de pago: Efectivo, Tarjeta y Bitcoin. Más adelante, se querrá incluir otro tipo de pago: Apple pay o Paypal. Dependiendo del tipo de pago querremos guardar la siguiente información:
+
+- Efectivo: Cuanto se ha pagado y cuanto se ha devuelto.
+- Tarjeta: El número de la tarjeta de crédito con la que se ha realizado el pago.
+- Bitcoin: La dirección de la wallet.
+
+Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
+
+---
+
+# Problema 2: Diseño
+
+Nos han pedido modelar un sistema para gestionar eventos deportivos. En este sistema gestionaremos los diferentes equipos, jugadores y aficionados. De cada persona querremos conocer su nombre, apellidos y edad, no obstante, si esta persona es miembro de un equipo querremos conocer también el peso y estatura y dorsal. Por otro lado, si se trata de un aficionado le preguntaremos y guardaremos a qué jugadores, equipo o equipos sigue
+
+Por cada evento que se haga querremos conocer qué dos equipos se enfrentaron, cuantos puntos hizo el equipo local y cuantos hizo el visitante, además de la fecha y ciudad en la que se realizó el evento.
+
+Cada equipo pertenece a una Localidad que, a su vez, ésta puede ser ciudad, pueblo o país. Además, mantendremos la relación de qué ciudades y pueblos pertenecen a un país para, más adelante, hacer eventos a gran escala.
+
+Más adelante, para hacer estudios estadísticos, de cada persona sería interesante conocer también a qué ciudad o pueble pertenece.
+
+Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar las decisiones de diseño que consideres más importantes.
+
+---
+
+# Problema 2: Diseño
+
+El Departamento para el Desarrollo Digital de la Investigación, también conocido como D<sup>3</sup>I, nos ha pedido ayuda para digitalizar la carrera profesional de sus investigadores. Usa los patrones vistos en clase para diseñar un diagrama de clases UML que soporte las siguientes funcionalidades:
+
+- **Registrar un nuevo investigador**. Se deberá pedir por teclado su nombre completo, años de experiencia en investigación y categoría profesional. El sistema debe aceptar las siguientes categorías profesionales:
+
+  - **Doctorando**: Investigador que aún no ha terminado el doctorado.
+  - **Doctor**: Investigador que ha finalizado el doctorado. Será necesario pedir por teclado si obtuvo la distinción _cum laude_ en su defensa de tesis.
+  - **Director**: Investigador que lidera una línea o grupo de investigación. Será necesario pedir cuántos investigadores forman parte de su equipo.
+
+- **Calcular el salario anual de un investigador**:
+  Se deberá pedir el nombre y aplicar las siguientes normas:
+
+  - Los doctorandos no cobran nada.
+  - Los doctores tienen un salario base de 30.000€, que se duplica si obtuvieron la distinción _cum laude_ en su defensa de tesis.
+  - Los directores tienen un salario base de 100.000€, con un plus de 10.000€ por cada investigador en su equipo.
+  - Todos los investigadores ganan un 1% adicional por cada año de experiencia acumulado, independientemente de su categoría profesional.
+
+- **Actualizar la carrera profesional de un investigador**: Se deberá pedir el nombre y la nueva categoría.
+
+Ten en cuenta que no estamos seguros de cómo se almacenará esta información, pero por el momento queremos hacer una prueba utilizando archivos JSON.
+
+---
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
@@ -114,6 +255,8 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 
 - Seria recomanable implementar un sistema amb aquesta estructura de codi? Justifica la teva resposta. En cas negatiu, explica quins canvis hi faries i per què. **[2 punts]**
 
+---
+
 # Problema 3: Disseny
 
 - Identifica les següents relacions a partir de la seva representació UML. Quina diferència hi ha entre elles? Descriu-les una a una abans de comparar-les en termes generals. **[1 punt]**
@@ -121,6 +264,8 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 ![UML](./assets/relaciones1.jpg)
 
 - Dissenya un petit diagrama de classes que faci servir les relacions de l’apartat anterior, juntament amb l’herència (o altres mecanismes per obtenir polimorfisme). Inclou alguns atributs i mètodes, tot justificant les decisions que has pres. **[2 punts]**
+
+---
 
 # Problema 3: Codi
 
@@ -176,6 +321,8 @@ Assumint que la sintaxi i la lògica són correctes, identifica tres errors conc
 47	    }
 48	}
 ```
+
+---
 
 # Problema 3: Codi
 
@@ -233,4 +380,142 @@ A continuació trobaràs els dos fragments de codi corresponents. Compara’ls t
 9	        view.showError(e.getMessage());
 10	    }
 11	}
+```
+
+---
+
+# Problema 3: Preguntas teóricas
+
+• De los siguientes diagramas UML, ¿cuál representaría más el modelado de una mesa y sus patas? Explica brevemente tu decisión, indica los nombres de las relaciones, qué características tienen y pon un ejemplo de cada una de ellas. **[2 puntos]**
+
+![UML](./assets/relaciones2.png)
+
+• Explica con tus palabras por qué cree que es importante modelar diagramas de clase en UML. **[1 punto]**
+
+---
+
+# Problema 3: Código
+
+Queremos añadir un miembro nuevo en el equipo de desarrollo y estamos haciendo entrevistas a posibles candidatos. Hemos recibido el código del primer candidato y nos ha mandado lo siguiente:
+
+```java
+public class Usuario {
+    String id;
+    String name;
+}
+
+public class Menu {
+    // asumimos que esta clase es correcta y no tiene ningún error
+}
+
+public class UsuarioManager {
+    public HashMap<String, Usuario> usuarios;
+
+    public void save(Usuario usuario) {
+        usuarios.put(usuario.id, usuario);
+    }
+}
+
+public class Controller {
+    private Menu menu;
+    private UsuarioManager manager;
+
+    public Controller(UsuarioManager manager) {
+        this.menu = new Menu();
+        this.manager = manager;
+    }
+
+    public void pideYGuardaDosUsuarios() {
+        Usuario usuario = new Usuario();
+
+        usuario.id = 1;
+        usuario.name = Menu.askForString("Enter your name");
+        if (usuario.name == null) {
+            Menu.showMessage("Name is required");
+            return;
+        }
+        saveUser(usuario);
+
+        usuario.id = 2;
+        usuario.name = Menu.askForString("Enter your name");
+        if (usuario.name == null) {
+            Menu.showMessage("Name is required");
+            return;
+        }
+        saveUser(usuario);
+
+        Menu.showMessage("You've introduced: " + manager.usuarios.toString());
+    }
+
+    public void saveUser(Usuario usuario) {
+        manager.save(usuario);
+    }
+}
+```
+
+A continuación, un ejemplo de cómo se utilizarían las clases anteriores:
+
+```java
+UsuarioManager manager = new UsuarioManager();
+Controller controller = new Controller(manager);
+controller.pideYGuardaDosUsuarios();
+```
+
+¿Serías capaz de detectar qué errores (a nivel conceptual) y qué aspectos mejorables tiene este código? Justifica tus respuestas.
+
+---
+
+# Problema 3: Código
+
+El siguiente código presenta carencias de calidad, incluyendo deficiencias respecto a los principios de la programación orientada a objetos (Encapsulamiento, Abstracción, Herencia, Polimorfismo) y los patrones GRASP (Controller, Information Expert, Low Coupling, High Cohesion). Detecta al menos tres problemas y propone las mejoras correspondientes.
+
+```java
+1 public class Controller {
+2     private BookManager manager;
+3
+4     public Controller(BookManager manager) {
+5         this.manager = manager;
+6     }
+7
+8     // Assume public functions are called when the user picks them in a menu
+9     public void createBook() {
+10         String title = Menu.askForString("Enter the book's title: ");
+11         String genre = Menu.askForString("Enter the book's genre: ");
+12         double price = Menu.askForDouble("Enter the book's price: ");
+13
+14         if (getBookByTitle (title) == null) {
+15             addBook(title, genre, price);
+16             Menu.showMessage("Successfully created the new book");
+17         } else {
+18             Menu.showError("Book " + title + " already exists");
+19         }
+20     }
+21
+22     public void showBookPrice() {
+23         String title = Menu.askForString("Enter the book's title: ");
+24         Book book = getBookByTitle(title);
+25
+26         switch (book.genre) {
+27             case "fantasy":
+28                 Menu.showMessage("Total price: " + book.price / 2);
+29                 break;
+30             default:
+31                 Menu.showMessage("Total price: " + book.price);
+32                 break;
+33         }
+34     }
+35
+36     private Book getBookByTitle(String title) {
+37         for (int i = 0; i < this.manager.getBooks().size(); i++) {
+38             if (this.manager.getBooks().get(i).title.equals(title)) {
+39                 return this.manager.getBooks().get(i);
+40             }
+41         }
+42         return null;
+43     }
+44
+45     private void addBook(String title, String genre, double price) {
+46         this.manager.getBooks().add(new Book(title, genre, price));
+47     }
+48 }
 ```
