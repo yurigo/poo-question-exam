@@ -95,6 +95,16 @@ Define con tus propias palabras y compara las siguientes parejas de conceptos: *
 - Clase - Objeto
 - Alta cohesión – Bajo acoplamiento
 
+# Problema 1: Relaciones entre clases
+
+¿Qué relaciones establecerías entre las siguientes clases? Represéntalas en UML y justifica tu respuesta.
+
+- a. Canción + Lista de Reproducción
+- b. Usuario + Usuario Administrador
+- c. Fotografía + Comentarios
+- d. Capítulos + Serie
+- e. Sierra + Tronco de Madera
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
