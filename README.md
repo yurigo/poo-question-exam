@@ -23,6 +23,8 @@ Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclos
 - c. Són dos: High Cohesion i Low Coupling.
 - d. Els va inventar Edsger W. Grasp.
 
+---
+
 # Problema 1: Test conceptual (resposta múltiple)
 
 Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclosos). Cal entregar l’enunciat amb les respostes, i els errors resten. **[3 punts]**
@@ -48,6 +50,8 @@ Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclos
 - c. Sovint es tradueix en una estructura de paquets.
 - d. Serveix per aconseguir que un programa escrit en Java compili.
 
+---
+
 # Problema 1: Conceptes
 
 Defineix amb les teves paraules i compara les següents parelles de conceptes: **[4 punts]**
@@ -57,9 +61,13 @@ Defineix amb les teves paraules i compara les següents parelles de conceptes: *
 - Interfície - Classe abstracta
 - GRASP - Layered Architecture
 
+---
+
 # Problema 1: Conceptes
 
 Explica què és el polimorfisme i les diferents formes que tenim d’obtenir-lo. Com es relaciona amb els altres fonaments de la Programació Orientada a Objectes? Posa un exemple pràctic on el polimorfisme faciliti la solució d’un problema (pots fer servir codi i/o diagrames si ho creus necessari). **[3 punts]**
+
+---
 
 # Problema 1: Test conceptual (respuesta múltiple)
 
@@ -86,6 +94,8 @@ Marca las opciones correctas para cada pregunta (puede haber de 0 a 4, incluidos
 - c. Garantiza que todas las clases tengan acceso a la misma información sin restricciones.
 - d. Limita la información disponible a las clases para promover la seguridad.
 
+---
+
 # Problema 1: Conceptos
 
 Define con tus propias palabras y compara las siguientes parejas de conceptos: **[3 puntos]**
@@ -94,6 +104,8 @@ Define con tus propias palabras y compara las siguientes parejas de conceptos: *
 - Polimorfismo vertical – Polimorfismo horizontal
 - Clase - Objeto
 - Alta cohesión – Bajo acoplamiento
+
+---
 
 # Problema 1: Relaciones entre clases
 
@@ -105,6 +117,8 @@ Define con tus propias palabras y compara las siguientes parejas de conceptos: *
 - d. Capítulos + Serie
 - e. Sierra + Tronco de Madera
 
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
@@ -113,6 +127,8 @@ Define con tus propias palabras y compara las siguientes parejas de conceptos: *
 
 - Explica amb les **teves paraules** per què creus que és important modelar diagrames de classe en UML. **[1 punt]**
 
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les teves paraules què és una classe abstracta i com es diferencia d’una interfície. En quines situacions ens decantarem per cadascuna? **[2 punts]**
@@ -120,6 +136,8 @@ Define con tus propias palabras y compara las siguientes parejas de conceptos: *
 - Explica amb les teves paraules què són els patrons GRASP, sense entrar en detalls. Quins són els avantatges que ens proporcionen com a programadors? **[1 punt]**
 
 - Explica amb les teves paraules per què creus que és important la programació orientada a objectes. **[1 punt]**
+
+---
 
 # Problema 2: Disseny
 
@@ -130,6 +148,8 @@ Volem començar a desenvolupar una plataforma. Encara no sabem ben bé si serà 
 - Entrar a la plataforma amb un usuari existent. Cal demanar per pantalla direcció de correu electrònic i contrasenya, per comprovar si l’usuari existeix i les credencials són correctes.
 
 Tingueu en compte que no estem segurs de com es persistirà aquesta informació, però de moment volem fer la prova amb fitxers JSON.
+
+---
 
 # Problema 2: Disseny
 
@@ -147,6 +167,8 @@ Tingues en compte que ara mateix persistirem la informació en un fitxer local e
 
 És recomanable justificar per escrit les decisions de disseny que considereu més importants.
 
+---
+
 # Problema 2: Diseño
 
 Nos piden diseñar una parte del modelo de negocio de un videojuego de combates espaciales:
@@ -162,6 +184,8 @@ El motor nos permitirá acelerar y frenar con más o menos dificultad. El motor 
 Las naves de combate y armas se pueden comprar, vender, mejorar y reparar en el mercado.
 
 Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
+
+---
 
 # Problema 2: Diseño
 
@@ -181,6 +205,8 @@ La información sobre el pago indicará cuando se llevó a cabo el pago, el tota
 
 Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
 
+---
+
 # Problema 2: Diseño
 
 Nos han pedido modelar un sistema para gestionar eventos deportivos. En este sistema gestionaremos los diferentes equipos, jugadores y aficionados. De cada persona querremos conocer su nombre, apellidos y edad, no obstante, si esta persona es miembro de un equipo querremos conocer también el peso y estatura y dorsal. Por otro lado, si se trata de un aficionado le preguntaremos y guardaremos a qué jugadores, equipo o equipos sigue
@@ -192,6 +218,8 @@ Cada equipo pertenece a una Localidad que, a su vez, ésta puede ser ciudad, pue
 Más adelante, para hacer estudios estadísticos, de cada persona sería interesante conocer también a qué ciudad o pueble pertenece.
 
 Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar las decisiones de diseño que consideres más importantes.
+
+---
 
 # Problema 2: Diseño
 
@@ -215,6 +243,8 @@ El Departamento para el Desarrollo Digital de la Investigación, también conoci
 
 Ten en cuenta que no estamos seguros de cómo se almacenará esta información, pero por el momento queremos hacer una prueba utilizando archivos JSON.
 
+---
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
@@ -225,6 +255,8 @@ Ten en cuenta que no estamos seguros de cómo se almacenará esta información, 
 
 - Seria recomanable implementar un sistema amb aquesta estructura de codi? Justifica la teva resposta. En cas negatiu, explica quins canvis hi faries i per què. **[2 punts]**
 
+---
+
 # Problema 3: Disseny
 
 - Identifica les següents relacions a partir de la seva representació UML. Quina diferència hi ha entre elles? Descriu-les una a una abans de comparar-les en termes generals. **[1 punt]**
@@ -232,6 +264,8 @@ Ten en cuenta que no estamos seguros de cómo se almacenará esta información, 
 ![UML](./assets/relaciones1.jpg)
 
 - Dissenya un petit diagrama de classes que faci servir les relacions de l’apartat anterior, juntament amb l’herència (o altres mecanismes per obtenir polimorfisme). Inclou alguns atributs i mètodes, tot justificant les decisions que has pres. **[2 punts]**
+
+---
 
 # Problema 3: Codi
 
@@ -287,6 +321,8 @@ Assumint que la sintaxi i la lògica són correctes, identifica tres errors conc
 47	    }
 48	}
 ```
+
+---
 
 # Problema 3: Codi
 
@@ -346,6 +382,8 @@ A continuació trobaràs els dos fragments de codi corresponents. Compara’ls t
 11	}
 ```
 
+---
+
 # Problema 3: Preguntas teóricas
 
 • De los siguientes diagramas UML, ¿cuál representaría más el modelado de una mesa y sus patas? Explica brevemente tu decisión, indica los nombres de las relaciones, qué características tienen y pon un ejemplo de cada una de ellas. **[2 puntos]**
@@ -353,6 +391,8 @@ A continuació trobaràs els dos fragments de codi corresponents. Compara’ls t
 ![UML](./assets/relaciones2.png)
 
 • Explica con tus palabras por qué cree que es importante modelar diagramas de clase en UML. **[1 punto]**
+
+---
 
 # Problema 3: Código
 
@@ -422,6 +462,8 @@ controller.pideYGuardaDosUsuarios();
 ```
 
 ¿Serías capaz de detectar qué errores (a nivel conceptual) y qué aspectos mejorables tiene este código? Justifica tus respuestas.
+
+---
 
 # Problema 3: Código
 
