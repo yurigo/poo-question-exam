@@ -422,3 +422,58 @@ controller.pideYGuardaDosUsuarios();
 ```
 
 ¿Serías capaz de detectar qué errores (a nivel conceptual) y qué aspectos mejorables tiene este código? Justifica tus respuestas.
+
+# Problema 3: Código
+
+El siguiente código presenta carencias de calidad, incluyendo deficiencias respecto a los principios de la programación orientada a objetos (Encapsulamiento, Abstracción, Herencia, Polimorfismo) y los patrones GRASP (Controller, Information Expert, Low Coupling, High Cohesion). Detecta al menos tres problemas y propone las mejoras correspondientes.
+
+```java
+1 public class Controller {
+2     private BookManager manager;
+3
+4     public Controller(BookManager manager) {
+5         this.manager = manager;
+6     }
+7
+8     // Assume public functions are called when the user picks them in a menu
+9     public void createBook() {
+10         String title = Menu.askForString("Enter the book's title: ");
+11         String genre = Menu.askForString("Enter the book's genre: ");
+12         double price = Menu.askForDouble("Enter the book's price: ");
+13
+14         if (getBookByTitle (title) == null) {
+15             addBook(title, genre, price);
+16             Menu.showMessage("Successfully created the new book");
+17         } else {
+18             Menu.showError("Book " + title + " already exists");
+19         }
+20     }
+21
+22     public void showBookPrice() {
+23         String title = Menu.askForString("Enter the book's title: ");
+24         Book book = getBookByTitle(title);
+25
+26         switch (book.genre) {
+27             case "fantasy":
+28                 Menu.showMessage("Total price: " + book.price / 2);
+29                 break;
+30             default:
+31                 Menu.showMessage("Total price: " + book.price);
+32                 break;
+33         }
+34     }
+35
+36     private Book getBookByTitle(String title) {
+37         for (int i = 0; i < this.manager.getBooks().size(); i++) {
+38             if (this.manager.getBooks().get(i).title.equals(title)) {
+39                 return this.manager.getBooks().get(i);
+40             }
+41         }
+42         return null;
+43     }
+44
+45     private void addBook(String title, String genre, double price) {
+46         this.manager.getBooks().add(new Book(title, genre, price));
+47     }
+48 }
+```
