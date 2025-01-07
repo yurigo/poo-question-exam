@@ -87,6 +87,15 @@ Marca las opciones correctas para cada pregunta (puede haber de 0 a 4, incluidos
 - c. Garantiza que todas las clases tengan acceso a la misma información sin restricciones.
 - d. Limita la información disponible a las clases para promover la seguridad.
 
+# Problema 1: Conceptos
+
+Define con tus propias palabras y compara las siguientes parejas de conceptos: **[3 puntos]**
+
+- Programación imperativa - Programación orientada a objetos
+- Polimorfismo vertical – Polimorfismo horizontal
+- Clase - Objeto
+- Alta cohesión – Bajo acoplamiento
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
