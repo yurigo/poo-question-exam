@@ -7,7 +7,6 @@ Marca les opcions correctes per cada pregunta (n’hi pot haver de 0 a 4, inclos
 - a. Si no ens surt la implementació d’un dels seus mètodes.
 - b. Si no volem permetre’n la instanciació de cap forma.
 - c. Sempre que hereti mètodes abstractes.
-
 - d. Quan vulguem tenir subclasses que implementin un mateix mètode genèric.
 
 2. Una interfície...
