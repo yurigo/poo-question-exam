@@ -154,6 +154,24 @@ Las naves de combate y armas se pueden comprar, vender, mejorar y reparar en el 
 
 Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
 
+# Problema 2: Diseño
+
+Nos piden diseñar una parte del modelo de negocio de una tienda online:
+
+Los usuarios de la aplicación harán login en nuestra tienda online. Después de hacer login en sistema detectará si el usuario es un cliente o un administrador.
+
+El administrador se encargará solamente de revisar el stock: Podrá añadir, editar y eliminar los productos existentes.
+
+Los clientes son un usuario del que necesitaremos guardar la información referente a este: nombre, dirección, teléfono, email. El cliente podrá consultar productos y añadirlos a una orden de compra. Una orden de compra tendrá un numero a modo de identificador, la fecha en la que se ha creado, la fecha en la que se haya enviado, la dirección de envío, el estado de la orden (nueva, enviada, entregada, cerrada), el total, el descuento aplicado (si lo hay), y el precio final. Además, debería incluir información sobre el pago y tantas líneas como productos integrados en la orden de compra. Asimismo, una línea de la orden de compra debe indicarlos la información del producto, la cantidad y el precio.
+
+La información sobre el pago indicará cuando se llevó a cabo el pago, el total pagado y el tipo de pago. El sistema, por el momento, puede admitir 3 tipos de pago: Efectivo, Tarjeta y Bitcoin. Más adelante, se querrá incluir otro tipo de pago: Apple pay o Paypal. Dependiendo del tipo de pago querremos guardar la siguiente información:
+
+- Efectivo: Cuanto se ha pagado y cuanto se ha devuelto.
+- Tarjeta: El número de la tarjeta de crédito con la que se ha realizado el pago.
+- Bitcoin: La dirección de la wallet.
+
+Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
