@@ -310,3 +310,72 @@ A continuació trobaràs els dos fragments de codi corresponents. Compara’ls t
 ![UML](./assets/relaciones2.png)
 
 • Explica con tus palabras por qué cree que es importante modelar diagramas de clase en UML. **[1 punto]**
+
+# Problema 3: Código
+
+Queremos añadir un miembro nuevo en el equipo de desarrollo y estamos haciendo entrevistas a posibles candidatos. Hemos recibido el código del primer candidato y nos ha mandado lo siguiente:
+
+```java
+public class Usuario {
+    String id;
+    String name;
+}
+
+public class Menu {
+    // asumimos que esta clase es correcta y no tiene ningún error
+}
+
+public class UsuarioManager {
+    public HashMap<String, Usuario> usuarios;
+
+    public void save(Usuario usuario) {
+        usuarios.put(usuario.id, usuario);
+    }
+}
+
+public class Controller {
+    private Menu menu;
+    private UsuarioManager manager;
+
+    public Controller(UsuarioManager manager) {
+        this.menu = new Menu();
+        this.manager = manager;
+    }
+
+    public void pideYGuardaDosUsuarios() {
+        Usuario usuario = new Usuario();
+
+        usuario.id = 1;
+        usuario.name = Menu.askForString("Enter your name");
+        if (usuario.name == null) {
+            Menu.showMessage("Name is required");
+            return;
+        }
+        saveUser(usuario);
+
+        usuario.id = 2;
+        usuario.name = Menu.askForString("Enter your name");
+        if (usuario.name == null) {
+            Menu.showMessage("Name is required");
+            return;
+        }
+        saveUser(usuario);
+
+        Menu.showMessage("You've introduced: " + manager.usuarios.toString());
+    }
+
+    public void saveUser(Usuario usuario) {
+        manager.save(usuario);
+    }
+}
+```
+
+A continuación, un ejemplo de cómo se utilizarían las clases anteriores:
+
+```java
+UsuarioManager manager = new UsuarioManager();
+Controller controller = new Controller(manager);
+controller.pideYGuardaDosUsuarios();
+```
+
+¿Serías capaz de detectar qué errores (a nivel conceptual) y qué aspectos mejorables tiene este código? Justifica tus respuestas.
