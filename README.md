@@ -172,6 +172,18 @@ La información sobre el pago indicará cuando se llevó a cabo el pago, el tota
 
 Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar por escrito las decisiones de diseño que consideréis más importantes.
 
+# Problema 2: Diseño
+
+Nos han pedido modelar un sistema para gestionar eventos deportivos. En este sistema gestionaremos los diferentes equipos, jugadores y aficionados. De cada persona querremos conocer su nombre, apellidos y edad, no obstante, si esta persona es miembro de un equipo querremos conocer también el peso y estatura y dorsal. Por otro lado, si se trata de un aficionado le preguntaremos y guardaremos a qué jugadores, equipo o equipos sigue
+
+Por cada evento que se haga querremos conocer qué dos equipos se enfrentaron, cuantos puntos hizo el equipo local y cuantos hizo el visitante, además de la fecha y ciudad en la que se realizó el evento.
+
+Cada equipo pertenece a una Localidad que, a su vez, ésta puede ser ciudad, pueblo o país. Además, mantendremos la relación de qué ciudades y pueblos pertenecen a un país para, más adelante, hacer eventos a gran escala.
+
+Más adelante, para hacer estudios estadísticos, de cada persona sería interesante conocer también a qué ciudad o pueble pertenece.
+
+Diseña el diagrama de clases con sus atributos y relaciones según el texto anterior. Es recomendable justificar las decisiones de diseño que consideres más importantes.
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
