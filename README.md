@@ -314,6 +314,28 @@ Diseña el diagrama de clases UML que represente este sistema, identificando cla
 
 ---
 
+# Problema 2: Diseño UML
+
+A continuación, se indican algunas de las clases del modelo de una aplicación de gestión de biblioteca: Libro, Usuario, Préstamo, Bibliotecario, Administrador. **[4 puntos]**
+
+Responde a las siguientes cuestiones:
+
+**Relaciones de herencia:** Identifica posibles relaciones de herencia entre las clases indicadas. Justifica tu propuesta de jerarquía.
+
+**Relaciones entre objetos:** El sistema debe reflejar que un usuario puede tener múltiples préstamos, y que cada préstamo está asociado a un único libro. Representa y justifica estas relaciones.
+
+**Cálculo de multas:** La clase Préstamo conoce la fecha de préstamo y la fecha de devolución. ¿Crees que sería un buen lugar para calcular una posible multa por retraso? ¿Qué patrón GRASP justificaría esta decisión?
+
+**Extensión de funcionalidades (notificaciones):** Se quiere añadir la funcionalidad de enviar notificaciones a los usuarios por diferentes medios (correo electrónico, SMS, notificaciones push…). Propón un diseño que permita añadir nuevas formas de notificación sin modificar las clases existentes. Explica qué elementos incluirías y cómo se relacionan.
+
+**Diagrama UML:** Realiza un diagrama UML de clases que refleje tu propuesta de diseño incluyendo:
+
+- Jerarquía de herencia propuesta
+- Relaciones entre Usuario, Préstamo y Libro
+- Diseño orientado a la extensibilidad en el sistema de notificaciones
+
+---
+
 # Problema 3: Disseny
 
 - Donat el següent diagrama UML, i tenint en compte que no s’hi ha representat cap constructor, _getter_ ni _setter_:
