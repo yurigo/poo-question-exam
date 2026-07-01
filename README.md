@@ -155,6 +155,17 @@ Explica los siguientes conceptos de forma detallada y con un ejemplo textual en 
 
 ---
 
+# Problema 1: Fundamentos de POO en Java
+
+Explica con tus propias palabras los siguientes conceptos y acompaña cada uno con un ejemplo sencillo (no es necesario código). **[3 puntos]**
+
+- Clase y objeto
+- Encapsulamiento
+- Herencia
+- Polimorfismo
+
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
@@ -262,14 +273,12 @@ Diseña el diagrama de clases con sus atributos y relaciones según el texto ant
 El Departamento para el Desarrollo Digital de la Investigación, también conocido como D<sup>3</sup>I, nos ha pedido ayuda para digitalizar la carrera profesional de sus investigadores. Usa los patrones vistos en clase para diseñar un diagrama de clases UML que soporte las siguientes funcionalidades:
 
 - **Registrar un nuevo investigador**. Se deberá pedir por teclado su nombre completo, años de experiencia en investigación y categoría profesional. El sistema debe aceptar las siguientes categorías profesionales:
-
   - **Doctorando**: Investigador que aún no ha terminado el doctorado.
   - **Doctor**: Investigador que ha finalizado el doctorado. Será necesario pedir por teclado si obtuvo la distinción _cum laude_ en su defensa de tesis.
   - **Director**: Investigador que lidera una línea o grupo de investigación. Será necesario pedir cuántos investigadores forman parte de su equipo.
 
 - **Calcular el salario anual de un investigador**:
   Se deberá pedir el nombre y aplicar las siguientes normas:
-
   - Los doctorandos no cobran nada.
   - Los doctores tienen un salario base de 30.000€, que se duplica si obtuvieron la distinción _cum laude_ en su defensa de tesis.
   - Los directores tienen un salario base de 100.000€, con un plus de 10.000€ por cada investigador en su equipo.
@@ -345,6 +354,26 @@ Responde a las siguientes cuestiones:
 - Jerarquía de herencia propuesta
 - Relaciones entre Usuario, Préstamo y Libro
 - Diseño orientado a la extensibilidad en el sistema de notificaciones
+
+---
+
+# Problema 2: Relaciones entre clases
+
+Dadas las siguientes parejas de clases, identifica qué tipo de relación existe (o si no existe una relación directa clara) entre ellas (asociación, agregación, composición, herencia…). **[3 puntos]**
+
+Para cada caso:
+
+- Indica el tipo de relación
+- Represéntala mediante un diagrama UML sencillo
+- Justifica brevemente tu respuesta
+
+Parejas:
+
+- Canción + Nota
+- Canción + Sonido
+- Sonido + Silencio
+- Playlist + Canción
+- Sonido + Playlist
 
 ---
 
@@ -625,9 +654,9 @@ El siguiente código presenta carencias de calidad, incluyendo deficiencias resp
 
 ---
 
-# Problema 3: Conceptos
+# Problema 3: Fundamentos de la programación orientada a objetos
 
-Enumera y define los cuatro pilares de la programación orientada a objetos. Puedes ayudarte con diagramas UML, ejemplos y código. **[3 puntos]**
+Explica con tus propias palabras los 4 pilares de la programación orientada a objetos. ¿Cuáles son los 4 pilares de la programación orientada a objetos? incluye una definición y pon un ejemplo de cada uno. Puedes ayudarte con diagramas UML. **[4 puntos]**
 
 ---
 
@@ -679,3 +708,13 @@ Responde a las siguientes cuestiones:
 - Analiza el diseño de la clase Curso. ¿Qué problemas observas en relación con los principios de diseño orientado a objetos y los patrones GRASP?
 - Indica qué principios o patrones GRASP se están violando y justifica tu respuesta con ejemplos del código.
 - Propón una versión mejorada de este diseño, aplicando buenas prácticas de diseño orientado a objetos. Puedes ayudarte de pseudocódigo, Java o diagramas UML si lo consideras útil.
+
+---
+
+# Problema 3: Uso de interfaces
+
+En programación orientada a objetos, a veces se define una interfaz y una o varias clases que la implementan. **[3 puntos]**
+
+- ¿Qué expresa una interfaz y qué tipo de elementos contiene?
+- Explica con tus propias palabras qué ventaja tiene usar una interfaz en lugar de trabajar directamente con una clase concreta.
+- Indica una situación en la que tenga sentido usar interfaces y otra en la que su uso pueda considerarse innecesario o excesivo.
