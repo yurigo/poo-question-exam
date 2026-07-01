@@ -131,6 +131,18 @@ Dadas las siguientes clases, identifica qué tipo de relación existe entre ella
 
 ---
 
+# Problema 1: Fundamentos de la programación orientada a Objetos
+
+Explica los siguientes conceptos de forma detallada y con un ejemplo textual en cada caso. **[3 puntos]**
+
+- Encapsulamiento
+- Herencia
+- Polimorfismo
+- Clases abstractas vs interfaces
+- Ventajas del uso de POO frente a la programación estructurada/imperativa.
+
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
@@ -278,6 +290,27 @@ Eres un desarrollador de software y un hospital te ha contactado para crear un s
 - Tened en cuenta que, por el momento, se utilizarán los mecanismos de notificación indicados anteriormente (email, SMS push), pero se quiere mantener la posibilidad de añadir otro mecanismo de notificación en el futuro (whatsapp, telegram, slack, etc.) sin afectar al comportamiento ni al desarrollo.
 
 El hospital te pide que diseñes un sistema que cumpla con estos requisitos: haz un diagrama de clases UML i justifica las decisiones del diseño.
+
+---
+
+# Problema 2: Diseño UML
+
+Unos clientes nos envían el siguiente encargo: **[4 puntos]**
+
+Queremos crear una plataforma de formación online que permita que distintos profesores creen cursos con un título, una descripción y una duración.
+
+Los estudiantes al conectarse a la plataforma podrán inscribirse en varios cursos siempre y cuando no superen un máximo de duración en total de los cursos inscritos. Cada inscripción puede incluir una o más evaluaciones con sus respectivas notas.
+
+Los profesores podrán, al conectarse a la plataforma:
+
+- Añadir contenido a sus cursos (texto, enlaces a recursos, documentos o ejercicios).
+- Consultar qué alumnos están inscritos en su curso.
+- Evaluar a los alumnos inscritos.
+- Notificar por correo a los alumnos.
+
+Por último, y no menos importante, los estudiantes, también podrán ver sus notas.
+
+Diseña el diagrama de clases UML que represente este sistema, identificando clases, relaciones, multiplicidades y jerarquías si las consideras necesarias. Se espera que tu propuesta incluya al menos una interfaz o clase abstracta.
 
 ---
 
@@ -561,3 +594,18 @@ El siguiente código presenta carencias de calidad, incluyendo deficiencias resp
 # Problema 3: Conceptos
 
 Enumera y define los cuatro pilares de la programación orientada a objetos. Puedes ayudarte con diagramas UML, ejemplos y código. **[3 puntos]**
+
+---
+
+# Problema 3: GRASP
+
+Responde a las siguientes cuestiones sobre los patrones GRASP que hemos estudiado: **[3 puntos]**
+
+**Experto en información:** ¿Qué significa este patrón? ¿Puedes poner un ejemplo (sin necesidad de código) donde se aplique correctamente?
+
+**Controlador:** ¿Qué tipo de clase debe actuar como controlador en un sistema orientado a objetos? ¿Qué tipo de responsabilidades se le asignan?
+
+**Alta cohesión vs Bajo acoplamiento:**
+
+- a. ¿Qué significa que una clase tenga “alta cohesión”? ¿Por qué es positivo en el diseño de software?
+- b. ¿Qué implica tener “bajo acoplamiento” entre clases? Pon un ejemplo breve (descriptivo).
