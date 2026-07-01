@@ -119,6 +119,18 @@ Define con tus propias palabras y compara las siguientes parejas de conceptos: *
 
 ---
 
+# Problema 1: Relaciones entre clases
+
+Dadas las siguientes clases, identifica qué tipo de relación existe entre ellas. Representa las relaciones en un diagrama UML y justifica tu respuesta. **[3 puntos]**
+
+- Paciente + Medicamento
+- Médico + Especialidad
+- ADN + Gen
+- Laboratorio + Análisis
+- Persona + Paciente
+
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
@@ -242,6 +254,30 @@ El Departamento para el Desarrollo Digital de la Investigación, también conoci
 - **Actualizar la carrera profesional de un investigador**: Se deberá pedir el nombre y la nueva categoría.
 
 Ten en cuenta que no estamos seguros de cómo se almacenará esta información, pero por el momento queremos hacer una prueba utilizando archivos JSON.
+
+---
+
+# Problema 2: Diseño UML
+
+Eres un desarrollador de software y un hospital te ha contactado para crear un sistema de gestión de pacientes y alertas médicas. El hospital te ha dado los siguientes requisitos: **[4 puntos]**
+
+**Gestión de pacientes:**
+
+- Cada paciente tiene un nombre, edad, historial médico y un conjunto de sensores que monitorean su estado de salud (por ejemplo, ritmo cardíaco, presión arterial, nivel de glucosa).
+- Los pacientes pueden ser clasificados en diferentes categorías (por ejemplo, pacientes crónicos, pacientes postoperatorios, pacientes en observación).
+
+**Alertas médicas:**
+
+- Cuando un sensor detecta un valor fuera de los rangos normales (por ejemplo, ritmo cardíaco demasiado alto o bajo), el sistema debe enviar una alerta.
+- Las alertas pueden ser enviadas a los médicos responsables y, en algunos casos, a los propios pacientes.
+- El sistema debe permitir enviar alertas por diferentes canales (email, SMS, notificaciones push).
+
+**Notificaciones:**
+
+- Los médicos y pacientes pueden elegir cómo quieren ser notificados (email, SMS, push).
+- Tened en cuenta que, por el momento, se utilizarán los mecanismos de notificación indicados anteriormente (email, SMS push), pero se quiere mantener la posibilidad de añadir otro mecanismo de notificación en el futuro (whatsapp, telegram, slack, etc.) sin afectar al comportamiento ni al desarrollo.
+
+El hospital te pide que diseñes un sistema que cumpla con estos requisitos: haz un diagrama de clases UML i justifica las decisiones del diseño.
 
 ---
 
@@ -519,3 +555,9 @@ El siguiente código presenta carencias de calidad, incluyendo deficiencias resp
 47     }
 48 }
 ```
+
+---
+
+# Problema 3: Conceptos
+
+Enumera y define los cuatro pilares de la programación orientada a objetos. Puedes ayudarte con diagramas UML, ejemplos y código. **[3 puntos]**
