@@ -143,6 +143,18 @@ Explica los siguientes conceptos de forma detallada y con un ejemplo textual en 
 
 ---
 
+# Problema 1: Conceptos clave del diseño orientado a objetos
+
+Explica los siguientes conceptos de forma detallada y con un ejemplo textual en cada caso: **[3 puntos]**
+
+- Abstracción
+- Encapsulamiento
+- Composición vs Agregación
+- Experto en información
+- Bajo acoplamiento
+
+---
+
 # Problema 2: Preguntes teòriques
 
 - Explica amb les **teves paraules** el que signifiquen els quatre principis de la programació orientada a objectes (encapsulament, abstracció, herència, polimorfisme). **[2 punts]**
@@ -631,3 +643,39 @@ Responde a las siguientes cuestiones sobre los patrones GRASP que hemos estudiad
 
 - a. ¿Qué significa que una clase tenga “alta cohesión”? ¿Por qué es positivo en el diseño de software?
 - b. ¿Qué implica tener “bajo acoplamiento” entre clases? Pon un ejemplo breve (descriptivo).
+
+---
+
+# Problema 3: Análisis de diseño orientado a objetos
+
+Observa la siguiente clase Java: **[3 puntos]**
+
+```java
+public class Curso {
+    private List<Estudiante> estudiantes;
+    private String nombre;
+
+    public void calcularNotas() {
+        for (Estudiante e : estudiantes) {
+            double media = 0;
+            for (int nota : e.getNotas()) {
+                media += nota;
+            }
+            media = media / e.getNotas().size();
+            e.setNotaMedia(media);
+        }
+    }
+
+    public void enviarNotificaciones() {
+        for (Estudiante e : estudiantes) {
+            System.out.println("Correo a " + e.getEmail() + ": tu nota media es " + e.getNotaMedia());
+        }
+    }
+}
+```
+
+Responde a las siguientes cuestiones:
+
+- Analiza el diseño de la clase Curso. ¿Qué problemas observas en relación con los principios de diseño orientado a objetos y los patrones GRASP?
+- Indica qué principios o patrones GRASP se están violando y justifica tu respuesta con ejemplos del código.
+- Propón una versión mejorada de este diseño, aplicando buenas prácticas de diseño orientado a objetos. Puedes ayudarte de pseudocódigo, Java o diagramas UML si lo consideras útil.
